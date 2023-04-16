@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+/* Page Content */
+.content {padding:20px;}
+
+.button {
+  background-color: blue;
+  border: darkred;
+    float: left;
+  display: block;
+  color: #f2f2f2;
+  object-position: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 28px;
+}
+.button a:hover {
+  background-color: skyblue;
+  color: red;
+}
+.button1 {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+}
+.button2 {
+  background-color: white;
+  border: darkred;
+  object-position: right;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.foter {
+  padding: 20px;
+  text-align: center;
+  background: green;
+  margin-top: 20px;
+}
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <a href="Home.html" class="w3-bar-item w3-button">
+      <img src="icon.png" alt="Nepal" style="">
+    </a>
+   <p>Find palce for adventure, peace, nature, people and culture</p>
+  </div>
+
+
+  <div class="button2">
+    <div class="button1">
+     <div class="button"> 
+      <a href="Home.html" alt="Click here for homepage" class="button">Home</a>
+      <a href="abo.html" class="button">About us</a>
+      <a href="con.html" class="button"> Contact us</a>
+      <a href="places.html" class="button">Our Places</a>
+      <a href="adv.html" class="button">Adventure</a>
+      <a href="hotel.html" class="button">Hotels</a>
+      <a href="him.html" class="button">Mountains</a>
+      <a href="news.html" class="button"> news</a>
+    </div>
+  </div>
+</div>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Nepal</option>
+      <option value="canada">Canada</option>
+      <option value="usa">AUS</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</div>
+
+ <div class="foter">
+         <h2>Ict 275 Human computer interaction</h2>
+   </div>
+
+
+</body>
+</html>
+
